@@ -29,7 +29,7 @@ void main() {
     List<String> daftarBelanja = ['beras', 'sayur', 'buah', 'daging'];
 
     //menggunakan for loop untuk menampilkan daftar belanja
-    for (var kebutuhan in daftarBelanja ){
-      print("Daftar Kebutuhan $kebutuhan");
+    for (int i = 1; i <= daftarBelanja.length; i++){
+      print("Item ke-${i}: ${daftarBelanja[i - 1]}");
     }
     }
